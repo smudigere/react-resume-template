@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilePicture.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -73,14 +73,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a US based <strong className="text-stone-100">Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">University of New Orleans</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a US based <strong className="text-stone-100">Software Engineer/Analyst</strong>, currently working
+        at <strong className="text-stone-100">University of New Orleans</strong> helping build business automation, implement Workday SIS & bridge the technical gap between users and use of technologies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Cricket</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time, you’ll often find me playing <strong className="text-stone-100">Cricket</strong>, working on personal projects, enhancing my technical and personal skills or exploring the beautiful state of <strong className="text-stone-100">Louisiana</strong>.
       </p>
     </>
   ),
@@ -108,12 +105,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'New Orleans, LA', Icon: MapIcon},
+    {label: 'Age', text: '27', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'India', Icon: FlagIcon},
+    {label: 'Interests', text: 'Cricket, running, gaming', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of New Orleans', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'University of New Orleans', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,12 +126,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Kannada',
+        level: 10,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Hindi',
+        level: 6,
       },
     ],
   },
@@ -143,6 +140,10 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
+        level: 9,
+      },
+      {
+        name: 'Next',
         level: 9,
       },
       {
@@ -158,6 +159,10 @@ export const skills: SkillGroup[] = [
   {
     name: 'Backend development',
     skills: [
+      {
+        name: 'Python',
+        level: 9,
+      },
       {
         name: 'Node.js',
         level: 8,
@@ -180,12 +185,12 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Android Native',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Redux',
+        level: 4,
       },
     ],
   },
@@ -268,39 +273,80 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2023 - Present',
+    location: 'University of New Orelans',
+    title: 'Computer Science',
+    content: <p>Majored in Computer Science</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2015 - April 2019',
+    location: 'Oakland University',
+    title: 'Bachelors in Science',
+    content: <p>Majored in Computer Science</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'March 2022 - Present',
+    location: 'University of New Orelans',
+    title: 'Application Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Extensive experience in application development, data analysis, and process automation within 
+        PeopleSoft and Workday environments. Adept at leveraging Java, Python, PowerShell, SQL, 
+        and Power BI to optimize system performance, troubleshoot errors, migrate data, and deliver 
+        insightful reports for data-driven decision-making. Collaborated on implementing and 
+        maintaining Workday Student to ensure seamless integration and timely delivery. Skilled in 
+        implementing automation solutions using Power Automate and streamlining workflows across 
+        diverse systems and platforms. Proven ability to drive successful project delivery while 
+        ensuring data integrity and compliance with industry standards.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'January 2019 - March 2022',
+    location: 'DXC Technology',
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Experienced in application migrations, technical lead for web application development, 
+        adhering to Agile methodologies (Scrum, Kanban), and fostering collaboration with cross￾functional teams. Proficient in implementing robust CI/CD pipelines (Jenkins, Trivy, SonarQube, 
+        Docker), facilitating testing, validation, and smooth deployments. Adept at gathering 
+        requirements, sprint planning, and retrospectives. Deployed NodeJS web applications and 
+        leveraged DevOps practices (IaC tools like Azure ARM templates, Terraform, Kubernetes). 
+        Maintained comprehensive documentation for knowledge transfer. Excellent communication 
+        skills, ensuring transparent progress updates across internal and external teams.
+      </p>
+    ),
+  },
+  {
+    date: 'July 2018 - December 2018',
+    location: 'Continental Automotive Systems',
+    title: 'Software Engineering Intern',
+    content: (
+      <p>
+        Proficient in automating software updates and security compliance using C#. Skilled in Agile 
+        methodologies with a focus on timely delivery. Adept at analyzing, troubleshooting, and 
+        resolving problems efficiently. Expertise in creating automated test scripts using PowerShell 
+        and defining test environments. Ability to produce clear, concise, and thorough specifications 
+        and documentation.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2017 - July 2018',
+    location: 'Coupon Wallet LLC',
+    title: 'Mobile App Developer',
+    content: (
+      <p>
+        Experienced in building mobile applications from scratch and publishing to the Play Store for 
+        internal and external clients. Proficient in diverse roles including documentation, requirements 
+        analysis, development, and testing. Developed multi-threaded mobile apps integrated with 
+        backend REST services, caching, and SQLite for optimized UI performance. Adept in Git 
+        version control, branch management, and coordinating with team members. Successfully 
+        integrated APIs from Google, AWS, Fabric, Facebook Graph, and external libraries to meet 
+        client requirements.
       </p>
     ),
   },
@@ -340,23 +386,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'samartha309@gmail.com',
+      href: 'mailto:samartha309@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'New Orleans LA, USA',
+      href: 'https://maps.app.goo.gl/p8mA4EbZ3d86PoW16',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@sammi_bammy',
+      href: 'https://www.instagram.com/sammi_bammy/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'smudigere',
+      href: 'https://github.com/smudigere',
     },
   ],
 };
@@ -365,9 +411,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/smudigere'},
+//  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/samartha-mudigere-girish-41234b135/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/sammi_bammy/'},
+//  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
