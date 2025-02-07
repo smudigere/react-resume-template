@@ -101,9 +101,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm a skilled full-stack developer with experience in Python, NodeJs, LAMP Stack, and Android app development. Currently, I'm exploring Terraform and building a personal data storage platform with automated backups. I have a strong interest in building and problem-solving, demonstrated by my career so far. Additionally, I'm passionate about optimizing hardware, from configuring a crypto mining rig to running open-source AI LLM's locally to playing with my Raspberry Pi for mini projects. Always eager to learn.`,
   aboutItems: [
     {label: 'Location', text: 'New Orleans, LA', Icon: MapIcon},
     {label: 'Age', text: '27', Icon: CalendarIcon},
@@ -276,13 +274,25 @@ export const education: TimelineItem[] = [
     date: 'August 2023 - Present',
     location: 'University of New Orelans',
     title: 'Computer Science',
-    content: <p>Majored in Computer Science</p>,
+    content: 
+    <p>
+      •Ability to analyze complex computational or software developmental problems.<br/>
+      •Synthesize solutions with implementations by applying acquired knowledge in Artifical Intelligence & Software Engineering.<br/>
+      •Opportunity to author/co-author papers and submit for review.
+    </p>,
   },
   {
     date: 'September 2015 - April 2019',
     location: 'Oakland University',
     title: 'Bachelors in Science',
-    content: <p>Majored in Computer Science</p>,
+    content: 
+    <p>
+      •Collaborative projects and laboratories in core computer science and engineering courses.<br/>
+      •Applied Senior Design capstone projects.<br/>
+      •Internships with industry partners and organizations, providing real-world experience.<br/>
+      •Participation in hackathons, coding competitions and software development challenges, including hosting nationwide events through the GrizzHacks student organization.<br/>
+      •Hands-on semester projects.
+    </p>,
   },
 ];
 
